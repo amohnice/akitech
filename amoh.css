@@ -1,0 +1,213 @@
+/* General Styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+}
+
+h1, h2, h3, h4 {
+    color: #01dafd; /* Accent color */
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #01dafd; /* Accent color */
+}
+
+a:hover {
+    color: #ff5e57; /* Highlight color */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #1a1a1a; /* Dark header */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    padding: 10px;
+    color: #e0e0e0; /* Light text */
+}
+
+nav ul li.active a {
+    font-weight: bold;
+    color: #ff5e57; /* Highlight color */
+}
+
+/* Home Section */
+.home {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #1a1a1a; /* Dark section */
+}
+
+.h1 {
+    font-size: 48px;
+}
+
+.h2 {
+    font-size: 24px;
+}
+
+.ph {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.bth {
+    padding: 10px 20px;
+    background-color: #01dafd; /* Accent color */
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.bth:hover {
+    background-color: #ff5e57; /* Highlight color */
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.photo {
+    margin-right: 40px;
+}
+
+.me {
+    max-width: 600px;
+}
+
+.bta {
+    display: flex;
+    gap: 10px;
+}
+
+.bta1, .bta2 {
+    padding: 10px 15px;
+    border: none;
+    color: #fff; /* Light text */
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.bta1 {
+    background-color: #01dafd; /* Accent color */
+}
+
+.bta1:hover {
+    background-color: #ff5e57; /* Highlight color */
+}
+
+.bta2 {
+    background-color: rgb(13, 13, 102);
+}
+
+.bta2:hover {
+    background-color: rgb(110, 110, 219);
+}
+
+/* Skills Section */
+.skills {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.ht, .hc, .hj {
+    display: inline-block;
+    margin: 20px 15px;
+}
+
+/* Working Process Section */
+.process {
+    margin: 50px 0;
+}
+
+.pr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pr1 {
+    text-align: center;
+    background-color: #1a1a1a; /* Dark card background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1); /* Light shadow */
+}
+
+.h3p {
+    font-size: 28px;
+}
+
+.h4p {
+    font-size: 20px;
+}
+
+/* Recent Projects Section */
+.projects {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.imgpr {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a; /* Dark footer */
+    color: #fff; /* Light text */
+    padding: 20px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column {
+    width: 30%;
+}
+
+.fp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar a {
+    margin: 0 10px;
+    color: #fff; /* Light text */
+}
+
+.navbar a:hover {
+    color: #01dafd; /* Accent color */
+}
