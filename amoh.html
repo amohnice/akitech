@@ -2,192 +2,162 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="amoh.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <title>AKITECH™</title>
-
 </head>
-
-
 <body>
     <div class="bc">
-    <nav>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li class="active"><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+        <!-- HOME -->
+        <div id="home" class="home">
+            <h1 class="h1">AKITECH™</h1>
+            <h1 class="h2">Technology Beyond Dreams</h1>
+            <p class="ph">Transform your ideas into dynamic, interactive, and responsive websites that not only look great but also deliver exceptional performance.</p>
+            <input class="bth" type="button" value="Download">
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>Additional Links</h2>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Porfolio</a></li>
-            <li><a href="#">Process</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li class="active"><a href="#">Contact us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Support</a></li>
         </ul>
-    </nav>
-    <!-- HOME -->
-    <div class="home">
-        <h1 class="h1">AKITECH™</h1>
-        <h1 class="h2">Technology Beyond Dreams</h1>
-        <p class="ph"> Transform your ideas into dynamic, interactive, and responsive websites<br>
-            that not only look great but also deliver exceptional performance.
+    </aside>
 
-</p> <br>
-
-            <input class="bth" type="button" value="Download ">
-    </div>
-    </div>
-
-    <!-- about me -->
-     <div class="about">
+    <!-- About Me -->
+    <div id="about" class="about">
         <div class="photo">
             <img src="assets/images/amoh3.jpg" alt="" width="500" height="500">
         </div>
-
         <div class="me">
             <h2 class="h2a"><span class="sp">|</span> ABOUT US</h2>
-            <p class="pa">We are passionate about creating innovative, user-friendly web solutions that push the boundaries of technology </p><br>
-
-            <p>We specialize in crafting custom web applications, e-commerce platforms, and mobile-friendly websites tailored to your business needs.From concept to completion,
-                our approach ensures that your website is designed with the latest technologies,
-                focusing on speed, security, and scalability.</p><br>
-            <p>AKITECH™ is your trusted partner in bringing your digital vision to life. Our dedication to quality, creativity, and client satisfaction is at the core of everything we do.
-                 </p><br>
-
-                         <div class="bta">
-                         <input class="bta1" type="button" value="HIRE ME NOW"> <br>
-                         <input class="bta2" type="button" value="VIEW RESUME">
-                         </div>
+            <p class="pa">We are passionate about creating innovative, user-friendly web solutions that push the boundaries of technology.</p>
+            <p>We specialize in crafting custom web applications, e-commerce platforms, and mobile-friendly websites tailored to your business needs. From concept to completion, our approach ensures that your website is designed with the latest technologies, focusing on speed, security, and scalability.</p>
+            <p>AKITECH™ is your trusted partner in bringing your digital vision to life. Our dedication to quality, creativity, and client satisfaction is at the core of everything we do.</p>
+            <div class="bta">
+                <input class="bta1" type="button" value="HIRE ME NOW"> <br>
+                <input class="bta2" type="button" value="VIEW RESUME">
+            </div>
         </div>
     </div>
-    <!-- skills -->
-     <div class="skills">
+
+    <!-- Skills -->
+    <div id="skills" class="skills">
         <h2 class="hs">SKILLS</h2>
-        <p class="ps">
-    At AKITECH™, we pride ourselves on our diverse skill set that enables us to deliver cutting-edge web solutions. Our expertise spans across various technologies, ensuring we can meet your project needs effectively.
-    <br><br>
-    With a strong foundation in <strong>HTML5</strong> and <strong>CSS3</strong>, we create well-structured, responsive websites that provide an optimal user experience. Our proficiency in <strong>JavaScript</strong> allows us to develop dynamic, interactive features that engage users and enhance functionality.
-    <br><br>
-    Additionally, we are well-versed in modern front-end frameworks like <strong>React.js</strong>, <strong>Vue.js</strong>, and <strong>Angular</strong>, enabling us to build scalable applications that meet the demands of today’s digital landscape. Our commitment to continuous learning ensures we stay updated with the latest trends and best practices in web development.
-</p>
+        <p class="ps">At AKITECH™, we pride ourselves on our diverse skill set that enables us to deliver cutting-edge web solutions. Our expertise spans across various technologies, ensuring we can meet your project needs effectively.</p>
+        <div class="sk">
+            <h4 class="ht">HTML</h4>
+            <i class="fa-solid fa-bars-progress"></i>
+            <h4 class="hc">CSS</h4>
+            <i class="fa-solid fa-bars-progress"></i>
+            <h4 class="hj">JAVASCRIPT</h4>
+            <i class="fa-solid fa-bars-progress"></i>
+        </div>
+    </div>
 
-           <div class="sk">
-             <h4 class="ht">HTML</h4>
-             <i class="fa-solid fa-bars-progress"></i>
-            <h4 class="hc"> CSS</h4>
-             <i class="fa-solid fa-bars-progress"></i>
-            <h4 class="hj"> JAVASCRIPT</h4>
-             <i class="fa-solid fa-bars-progress"></i>
-           </div>
-
+    <!-- Working Process -->
+    <div id="process" class="process">
+        <div class="p1">
+            <h2 class="hp"><span class="sp">|</span> WORKING PROCESS</h2>
+            <p class="pp">Designed to ensure efficiency and clarity at every stage. We start with a thorough analysis of your needs, followed by brainstorming and planning. Once the framework is established, we move into development, focusing on building robust solutions. Finally, we conduct extensive testing and gather feedback to refine the product, ensuring it meets your expectations and delivers optimal results.</p>
+        </div>
+        <div class="pr">
+            <div class="pr1">
+                <h3 class="h3p">01.</h3>
+                <i class="fa fa-desktop"></i> <br>
+                <h4 class="h4p">HTML5 & CSS</h4>
+                <p>Crafting responsive, accessible, and well-structured websites.</p>
             </div>
-            <!--  working process -->
+            <div class="pr1">
+                <h3 class="h3p">02.</h3>
+                <i class="fa-solid fa-chart-line"></i> <br>
+                <h4 class="h4p">Responsive Design</h4>
+                <p>Building mobile-first, cross-browser compatible websites.</p>
+            </div>
+            <div class="pr1">
+                <h3 class="h3p">03.</h3>
+                <i class="fa-solid fa-code"></i> <br>
+                <h4 class="h4p">JavaScript</h4>
+                <p>Creating dynamic and interactive web applications using JavaScript.</p>
+            </div>
+            <div class="pr1">
+                <h3 class="h3p">04.</h3>
+                <i class="fa-brands fa-wordpress"></i> <br>
+                <h4 class="h4p">Frameworks</h4>
+                <p>Expertise in front-end frameworks such as React.js, Vue.js, and Angular.</p>
+            </div>
+        </div>
+    </div>
 
-            <div class="process">
-                <div class="p1">
-                <h2 class="hp"><span class="sp">|</span> WORKING PROCESS</h2>
-                <br>
-                <p class="pp">
-    Designed to ensure efficiency and clarity at every stage. We start with a thorough analysis of your needs, followed by brainstorming and planning.
-    Once the framework is established, we move into development, focusing on building robust solutions.<br>
-    Finally, we conduct extensive testing and gather feedback to refine the product, ensuring it meets your expectations and delivers optimal results.
-                </p>
+    <!-- Recent Projects -->
+    <div id="portfolio" class="projects">
+        <h2 class="hrp"><span class="sp">|</span> RECENT PROJECTS</h2>
+        <p class="prp">Our recent projects showcase our commitment to innovation and quality. Each project reflects our ability to adapt to client needs while employing the latest technologies.</p>
+        <div class="imgpr">
+            <img src="assets/images/amoh2.jpg" alt="" width="250" height="200">
+            <img src="assets/images/amoh2.jpg" alt="" width="250" height="200">
+            <img src="assets/images/amoh2.jpg" alt="" width="250" height="200">
+        </div>
+    </div>
 
-                </div>
-                <div class="pr">
+    <!-- Contact -->
+    <div id="contacts" class="contacts">
+        <h2 class="hc">CONTACT US</h2>
+        <p>For inquiries or to discuss your project, please get in touch!</p>
+    </div>
 
-                     <div class="pr1">
-                        <h3 class="h3p">01.</h3>
-                        <i class="fa fa-desktop"></i> <br>
-                        <h4 class="h4p">HTML5 & CSS</h4>
-                        <p>Crafting responsive, accessible, and well-structured websites.</p>
-                    </div>
-
-                    <div class="pr1">
-                        <h3 class="h3p">03.</h3>
-                        <i class="fa-solid fa-code"></i> <br>
-                        <h4 class="h4p">JavaScript</h4>
-                        <p>Creating dynamic and interactive web applications using JavaScript.</p>
-                    </div>
-
-                    <div class="pr1">
-                        <h3 class="h3p">02.</h3>
-                        <i class="fa-solid fa-chart-line"></i> <br>
-                       <h4 class="h4p">Responsive design</h4>
-                        <p>Building mobile-first, cross-browser compatible websites.</p>
-
-                    </div>
-
-                    <div class="pr1">
-                        <h3 class="h3p">03.</h3>
-                     <i class="fa-brands fa-wordpress"></i> <br>
-                        <h4 class="h4p">Frameworks</h4>
-                        <p>Expertise in front-end frameworks such as React.js, Vue.js, and Angular.</p>
-                    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>GET IN TOUCH</h3>
+                <p>We’d love to hear from you! Whether you have questions, want to discuss a project, or simply wish to connect.</p>
+                <h4>Email Address</h4>
+                <p>amoskorir631@gmail.com</p>
+                <h4>Phone Number</h4>
+                <p>+254 719 388 139</p>
+                <h4>Location</h4>
+                <p>Bomet Town</p>
+            </div>
+            <div class="footer-section">
+                <h3>ABOUT ME</h3>
+                <p>I'm a passionate web developer dedicated to creating innovative and user-friendly digital solutions.</p>
+            </div>
+            <div class="footer-section">
+                <h3>My Projects</h3>
+                <div class="fp">
+                    <img src="assets/images/amoh4.jpg" alt="" width="150" height="150">
+                    <img src="assets/images/amoh4.jpg" alt="" width="150" height="150">
                 </div>
             </div>
-            <!-- Recent projects -->
-             <div class="projects">
-                <h2 class="hrp"><span class="sp">|</span> RECENT PROJECTS</h2>
-                <p class="prp">Our recent projects showcase our commitment to innovation and quality. Each project reflects our ability to adapt to client needs while employing the latest technologies. From web development to mobile applications, we strive to create solutions that are not only functional but also user-friendly and visually appealing.</p> <br>
-                     <div class="imgpr">
-                     <img src="assets/images/amoh2.jpg" alt="" width="250px" height="200px">
-                     <img src="assets/images/amoh2.jpg" alt="" width="250px" height="200px">
-                     <img src="assets/images/amoh2.jpg" alt="" width="250px" height="200px">
-                     </div>
-             </div>
-
-             <!-- footer -->
-              <footer>
-                <div class="row">
-                <div class="column">
-                    | <h3>GET IN TOUCH</h3>
-                    <p> We’d love to hear from you! Whether you have questions, want to discuss a project, or simply wish to connect. We value open communication and are here to help you bring your ideas to life.</p>
-                    <h4>Email Address</h4>
-                    amoskorir631@gmail.com
-                    <br>
-                    <h4>Phone Number</h4>
-                    +254 719 388 139
-                    <h4>Location</h4>
-                    Bomet Town
-                </div>
-
-                <div class="column">
-                    <h3>ABOUT ME</h3>
-                    <p>I'm a passionate web developer dedicated to creating innovative and user-friendly digital solutions. With a strong background in HTML, CSS, and JavaScript, I thrive on turning ideas into functional, responsive websites that deliver exceptional user experiences.</p>
-                    <p>My journey in technology has been fueled by a love for problem-solving and a desire to stay ahead of industry trends. I specialize in crafting custom web applications and e-commerce platforms, ensuring that each project is tailored to meet the unique needs of my clients.</p>
-                    <p>At AKITECH™, I believe in the power of collaboration and communication, working closely with clients to bring their visions to life. When I’m not coding, you can find me exploring new technologies, honing my skills, or enjoying the great outdoors.</p>
-
-                </div>
-
-                <div class="column">
-                    |<h3>My projects</h3>
-                    <div class="fp">
-                        <img src="assets/images/amoh4.jpg" alt="" width="150px" height="150px">
-                        <img src="assets/images/amoh4.jpg" alt="" width="150px" height="150px">
-                        <img src="assets/images/amoh4.jpg" alt="" width="150px" height="150px">
-                        <img src="assets/images/amoh4.jpg" alt="" width="150px" height="150px">
-                        <img src="assets/images/amoh4.jpg" alt="" width="150px" height="150px">
-                        <img src="assets/images/amoh4.jpg" alt="" width="150px" height="150px">
-                    </div>
-                </div>
-
-                </div>
-
-                <nav class="navbar">
-                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                </nav>
-              </footer>
-
-
-
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AKITECH™. All Rights Reserved.</p>
+        </div>
+        <nav class="navbar">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </nav>
+    </footer>
 </body>
-</html>
